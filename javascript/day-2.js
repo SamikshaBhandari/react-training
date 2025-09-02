@@ -62,3 +62,9 @@ else if(age>80){
 else{
     console.log("you can drive");
 }
+
+age=17;
+console.log(`your age is ${age}`);
+if(age>=18&&age<=80){
+    console.log("you can drive");
+}
