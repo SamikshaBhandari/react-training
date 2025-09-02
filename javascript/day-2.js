@@ -62,8 +62,16 @@ else{
     console.log("you can drive");
 }
 
-age=17;
-console.log(`your age is ${age}`);
+function sumData(age,gender,address){
+   console.log("Function is called");
+   console.log(`Gender is ${gender}`);
+   console.log(`Address is ${address}`);
+    console.log(`your age is ${age}`);
 if(age>=18&&age<=80){
     console.log("you can drive");
 }
+else{
+    console.log("you cannot drive");
+}
+}
+sumData(80,"female","itahari-2");
