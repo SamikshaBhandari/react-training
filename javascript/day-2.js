@@ -31,3 +31,13 @@ console.log(`can you read article? ${isLoggedIn|| hasPermission||hasPermissionTo
 
 let firstName="Samiksha";
 console.log(firstName.length);
+
+let invest=10000;
+let profit=4000;
+let loss=2000;
+if(profit<loss){
+console.log("you are in loss");
+}
+else{
+    console.log("you are in profit");
+}
