@@ -12,10 +12,9 @@ console.log(num1>num2);
 console.log(num1<num2);
 console.log(num1>=num2);
 console.log(num1<=num2);
-console.log(num1!=num2);
 
 //logical operation(AND)
-let age=17;
+age=17;
 let value=age>=18&&age<=80;
 console.log(`CAn you drive a car? ${value}`);
 
