@@ -75,3 +75,11 @@ else{
 }
 }
 sumData(80,"female","itahari-2");
+
+function add(num1,num2){
+    return num1+num2;
+}
+let result=add(6,7)
+let result2=result+7;
+console.log(result2);
+
