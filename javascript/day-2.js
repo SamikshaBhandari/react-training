@@ -1,0 +1,33 @@
+let a=20;
+let b=10;
+console.log(a % b);
+
+const data1="samiksha";
+const data2="samiksha";
+console.log(data1===data2);
+
+const num1=30;
+const num2=40;
+console.log(num1>num2);
+console.log(num1<num2);
+console.log(num1>=num2);
+console.log(num1<=num2);
+console.log(num1!=num2);
+
+//logical operation(AND)
+let age=17;
+let value=age>=18&&age<=80;
+console.log(`CAn you drive a car? ${value}`);
+
+//OR operation
+let isLoggedIn=true;
+let hasPermission=false;
+let hasPermissionToEdit=true;
+console.log(isLoggedIn);
+console.log(hasPermission);
+console.log(hasPermissionToEdit);
+console.log(`can you edit article? ${isLoggedIn&&hasPermission&&hasPermissionToEdit}`);
+console.log(`can you read article? ${isLoggedIn|| hasPermission||hasPermissionToEdit}`);
+
+let firstName="Samiksha";
+console.log(firstName.length);
