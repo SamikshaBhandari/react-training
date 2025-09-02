@@ -41,3 +41,12 @@ console.log("you are in loss");
 else{
     console.log("you are in profit");
 }
+if(invest<loss){
+    console.log("you are in loss");
+}
+else if(profit<loss){
+console.log("you are in partial loss");
+}
+else{
+    console.log("you are in profit");
+}
