@@ -50,3 +50,15 @@ console.log("you are in partial loss");
 else{
     console.log("you are in profit");
 }
+
+
+age=18;
+if(age<18){
+    console.log("You are to young you cannot drive.");
+}
+else if(age>80){
+    console.log("you are to old.");
+}
+else{
+    console.log("you can drive");
+}
