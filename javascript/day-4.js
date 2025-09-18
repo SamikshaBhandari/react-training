@@ -53,7 +53,7 @@ const userdata={
 const signup=(name,email,password,userImage)=>{
 userdata.name=name;
 userdata.email=email;
-userdata.password=password;
+userdata.password=password; 
 userdata.userImage=userImage;
 userdata.createdAt=new Date().toISOString();
 userdata.updatedAt=new Date().toISOString();
@@ -62,3 +62,5 @@ return{message:"Signup successfully.",data:userdata}
 let result=signup("Samiksha","samikshabhandari@gmail.com","7836457","photo.jpg");
 console.log(result.message);
 console.log(result.data);
+
+

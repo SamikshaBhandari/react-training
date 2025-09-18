@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-box {
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.heading h1 {
+  color: rgb(30, 167, 92);
+}
+.name {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
+.name input {
+  height: 25px;
+  border: 1px solid rgb(108, 122, 108);
+  border-radius: 5px;
+}
+.faculty {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
+.faculty input {
+  height: 25px;
+  border: 1px solid rgb(108, 122, 108);
+  border-radius: 5px;
+}
+.gender {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
+.email-box {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
+.email-box input {
+  height: 25px;
+  border: 1px solid rgb(108, 122, 108);
+  border-radius: 5px;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.sub button {
+  height: 25px;
+  border: 1px solid rgb(36, 179, 91);
+  border-radius: 5px;
+  background-color: rgb(51, 201, 76);
+  color: white;
+}

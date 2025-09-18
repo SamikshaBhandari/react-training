@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+p {
+  color: green;
+}
+button {
+  height: 30px;
+  width: 100px;
+  border: 1px solid rgb(70, 68, 68);
+  border-radius: 10px;
+  background-color: rgb(151, 148, 148);
+  color: white;
+  margin-top: 40px;
+}
